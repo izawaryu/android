@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Make a new observation of a specimen -->
+    <item
+        android:id="@+id/menu_observe"
+        android:title="@string/action_observe"
+        app:showAsAction="never" />
+
+    <!--  -->
+    <item
+        android:id="@+id/menu_collection"
+        android:title="@string/action_collection"
+        app:showAsAction="never" />
+
+    <!--  -->
+    <item
+        android:id="@+id/menu_map"
+        android:title="@string/action_map"
+        app:showAsAction="never" />
+
+    <!--  -->
+    <item
+        android:id="@+id/menu_account"
+        android:title="@string/action_account"
+        app:showAsAction="never" />
+
+
+</menu>
