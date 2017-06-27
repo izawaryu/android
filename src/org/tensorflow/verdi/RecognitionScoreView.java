@@ -69,8 +69,8 @@ protected SQLiteDatabase dbw;
 
             String date = DateFormat.getDateInstance().format(new Date());
             String user = "tester";
-            String latitude = "lat";
-            String longitude = "long";
+            String latitude = String.valueOf(CameraActivity.lastLocation.getLatitude());
+            String longitude = String.valueOf(CameraActivity.lastLocation.getLongitude());
             String species = recog.getTitle();
             String genus = "genus";
 
